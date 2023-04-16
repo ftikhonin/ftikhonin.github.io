@@ -34,13 +34,15 @@ body {
     background-color: var(--color-avatar-bg);
     border-radius: var(--primer-borderRadius-medium, 6px);
     box-shadow: 0 0 0 1px var(--color-avatar-border);
-    display: inline-block;
+
+  
+    margin: 0 0 0 200px;
     flex-shrink: 0;
     line-height: 1;
     overflow: hidden;
-    vertical-align: middle;
+    vertical-align: left;
     border-radius: 50% !important;
-    width: 200px;
+    width: 160px;
     background-color: var(--color-canvas-default) !important;
     border: var(--primer-borderWidth-thin, 1px) solid var(--color-border-default) !important;
 }
