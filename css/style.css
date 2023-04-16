@@ -39,20 +39,12 @@ body {
     line-height: 1;
     overflow: hidden;
     vertical-align: middle;
-}
-
-.avatar-user {
     border-radius: 50% !important;
     width: 200px;
-}
-
-.color-bg-default {
     background-color: var(--color-canvas-default) !important;
-}
-
-.border {
     border: var(--primer-borderWidth-thin, 1px) solid var(--color-border-default) !important;
 }
+
 
 @page {
     size: 8.27in 11.69in;
