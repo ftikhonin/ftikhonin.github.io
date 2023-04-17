@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Cascadia Code', sans-serif;
-    color: black;
 }
 
 body {
@@ -34,13 +33,14 @@ body {
 .container .left_Side {
     position: relative;
     background: #003147;
-    padding: 40px;
+    padding: 30px;
+    width: 100%;
 }
 
 .container .right_Side {
     position: relative;
     background: #fff;
-    padding: 40px;
+    padding: 60px;
 }
 
 .profileText {
@@ -79,18 +79,10 @@ body {
     cursor: pointer;
 }
 
-.contactInfo ul li .icon {
+.contactInfo ul li span .icon {
     display: inline-block;
-    width: 30px;
-    font-size: 18px;
-    color: #03a9f4;
-}
-
-.contactInfo ul li .icon {
-    display: inline-block;
-    width: 30px;
-    font-size: 18px;
-    color: #03a9f4;
+    width: 20px;
+    font-size: 14px;
 }
 
 .contactInfo ul li span {
@@ -98,8 +90,13 @@ body {
     font-weight: 300;
 }
 
+.contactInfo ul li .Link--primary {
+    color: #fff;
+}
+
 .education ul li {
     margin-bottom: 15px;
+    list-style: none;
 }
 
 .education h5 {
@@ -116,7 +113,18 @@ body {
     color: #fff;
     font-weight: 500;
 }
-
+.language ul li {
+    list-style: none;
+    color: #fff;
+    font-weight: 500;
+}
+.language ul li::before {
+    content: "\2022";
+    color: #fff;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em; 
+}
 .title {
     color: #fff;
     text-transform: uppercase;
@@ -140,10 +148,34 @@ body {
     border: var(--primer-borderWidth-thin, 1px) solid var(--color-border-default) !important;
 }
 
-.summary:last-child {
+.about {
     margin-bottom: 50px;
 }
 
+.about:last-child {
+    margin-bottom: 0;
+}
+
+.about .box {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.about .box .year_company {
+    min-width: 150px;
+}
+.about .box .year_company h5{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+
+.about .box .text h4{
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
+}
 .title2 {
     color: #003147;
     text-transform: uppercase;
