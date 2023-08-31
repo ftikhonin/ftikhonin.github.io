@@ -33,14 +33,14 @@ body {
 .container .left_Side {
     position: relative;
     background: #003147;
-    padding: 30px;
+    padding: 25px;
     width: 100%;
 }
 
 .container .right_Side {
     position: relative;
     background: #fff;
-    padding: 60px;
+    padding: 20px;
 }
 
 .profileText {
@@ -48,7 +48,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
@@ -65,7 +65,8 @@ body {
 }
 
 .contactInfo {
-    padding-top: 40px;
+    padding-top: 5px;
+    margin-bottom: 15px;
 }
 
 .contactInfo ul {
@@ -75,13 +76,13 @@ body {
 .contactInfo ul li {
     position: relative;
     list-style: none;
-    margin: 10px 0;
+    margin: 5px;
     cursor: pointer;
 }
 
 .contactInfo ul li span .icon {
     display: inline-block;
-    width: 20px;
+    width: 15px;
     font-size: 14px;
 }
 
@@ -109,9 +110,42 @@ body {
     font-weight: 500;
 }
 
+.education {
+ 
+    padding-top: 5px;
+    margin-bottom: 15px;
+}
+.skills{
+ 
+    padding-top: 5px;
+    margin-bottom: 15px;
+    
+}
+.skills ul {
+ 
+ color: #fff;
+ list-style: none;
+}
+
+.skills h5 {
+    color: #03a9f4;
+    font-weight: 500;
+}
+
+.skills h4 {
+    color: #fff;
+    font-weight: 500;
+}
+
+.language{
+padding-top: 5px;
+margin-bottom: 15px;
+}
+
 .language ul li h5 {
     color: #fff;
     font-weight: 500;
+        
 }
 .language ul li {
     list-style: none;
@@ -119,7 +153,7 @@ body {
     font-weight: 500;
 }
 .language ul li::before {
-    content: "\2022";
+    
     color: #fff;
     display: inline-block;
     width: 1em;
@@ -149,7 +183,7 @@ body {
 }
 
 .about {
-    margin-bottom: 50px;
+    margin-bottom: 15px;
 }
 
 .about:last-child {
@@ -160,6 +194,7 @@ body {
     display: flex;
     flex-direction: row;
     margin: 20px 0;
+    text-align: justify;
 }
 
 .about .box .year_company {
